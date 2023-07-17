@@ -62,11 +62,11 @@ export const Header = () => {
                 className="d-block align-self-end"
               />
             </div>
-            <QuickServiceImgStyled
+            {/* <QuickServiceImgStyled
               src={QuickServiceImg}
               alt="Quick service picture"
             />
-            <RatingImgStyled src={RatingImg} alt="Rating picture" />
+            <RatingImgStyled src={RatingImg} alt="Rating picture" /> */}
           </Col>
         </Row>
       </Container>

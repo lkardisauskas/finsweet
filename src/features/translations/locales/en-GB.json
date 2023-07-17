@@ -35,5 +35,12 @@
   "OfferBodyWork": "Body Work",
   "OfferBatteries": "Batteries",
   "OfferInsurance": "Insurance Claim",
-  "OfferCustomService": "Custom Service"
+  "OfferCustomService": "Custom Service",
+
+  "ExperienceProffesional": "Proffesional",
+  "ExperienceExperience": "Experience",
+  "ExperienceServiceClosed": "Service Closed",
+  "ExperienceCustomerSatisfaction": "Customer Satisfaction",
+
+  "TestimonialsTitle": "Our customers say the nicest things about our service"
 }

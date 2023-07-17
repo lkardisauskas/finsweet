@@ -1,20 +1,26 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Header } from "./About us/Header/Header";
+import { StepsSection } from "./About us/Steps Section/StepsSection";
+import { ColorSection } from "./About us/Color Section/ColorSection";
+import { FeaturesSection } from "./About us/Features Section/FeaturesSection";
+import { Experience } from "../../src/screens/Home/Experience/Experience";
+import { TeamSection } from "./About us/Team Section/TeamSection";
+import { Cta } from "../core/components/CTA/Cta";
+import { FooterTop } from "../core/components/footer/FooterTop/FooterTop";
+import { FooterBottom } from "../core/components/footer/FooterBottom/FooterBottom";
 
 export const AboutUs = () => {
   return (
-    <Container>
-      <Row>
-        <Col md={6}>
-          <div>Content 1</div>
-        </Col>
-        <Col
-          md={6}
-          className="d-flex justify-content-center align-items-center"
-        >
-          <div>Centered Content</div>
-        </Col>
-      </Row>
-    </Container>
+    <>
+      <Header />
+      <StepsSection />
+      <ColorSection />
+      <FeaturesSection />
+      <Experience />
+      <TeamSection />
+      <Cta />
+      <FooterTop />
+      <FooterBottom />
+    </>
   );
 };

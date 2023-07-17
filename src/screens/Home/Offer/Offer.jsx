@@ -18,6 +18,7 @@ import { useTranslation } from "react-i18next";
 import DiagnosticsIcon from "./img/DiagnosticsIcon.png";
 import EngineRepairIcon from "./img/EngineRepairIcon.png";
 import WheelRepairIcon from "./img/WheelRepairIcon.png";
+import WheelRepairIconSVG from "./img/WheelRepairIconSVG.svg";
 import OilIcon from "./img/OilIcon.png";
 import BodyWorkIcon from "./img/BodyWorkIcon.png";
 import BatteriesIcon from "./img/BatteriesIcon.png";
@@ -61,7 +62,7 @@ export const Offer = () => {
                 </Col>
                 <Col md={3}>
                   <ThirdGridItem>
-                    <img src={WheelRepairIcon} alt="WheelRepairIcon" />
+                    <img src={WheelRepairIconSVG} alt="WheelRepairIcon" />
                     <AllStyledT02 className="my-2">
                       {t("OfferWheelRepair")}
                     </AllStyledT02>

@@ -9,13 +9,21 @@ export const SpacedCol = styled(Col)`
   justify-content: center;
 `;
 
+// export const QuickServiceImgStyled = styled.img`
+//   position: absolute;
+//   top: 7%;
+//   right: 30%;
+// `;
+// export const RatingImgStyled = styled.img`
+//   position: absolute;
+//   left: 60%;
+//   top: 40%;
+// `;
+
 export const QuickServiceImgStyled = styled.img`
   position: absolute;
-  top: 7%;
-  right: 30%;
 `;
+
 export const RatingImgStyled = styled.img`
   position: absolute;
-  left: 60%;
-  top: 40%;
 `;

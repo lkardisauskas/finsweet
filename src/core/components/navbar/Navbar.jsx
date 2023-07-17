@@ -11,6 +11,7 @@ import {
   styledPhoneNumber,
 } from "./navbar.style";
 import phoneIcon from "./svg/Assistance Icon.svg";
+import { AllStyledP1B } from "../../../features/mainStyles.style";
 
 export const Navbar = () => {
   return (
@@ -44,7 +45,8 @@ export const Navbar = () => {
             </div>
             <div className="m-0 p-0">
               <p className="m-0 p-0"> Road Assistance</p>
-              <p className="m-0 p-0">1800 265 24 52</p>
+
+              <AllStyledP1B className="m-0 p-0">1800 265 24 52</AllStyledP1B>
             </div>
           </FlexAlignDivInNavBar>
         </NavbarContainer>
